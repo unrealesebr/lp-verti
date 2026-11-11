@@ -1,8 +1,22 @@
-# Fontes licenciadas (Karasuma Gothic e Highhope), 83 MB.
-# Fora do repositório porque ele é público: hospedar a fonte no próprio
-# site costuma estar na licença, publicar os arquivos para qualquer um
-# baixar não. Conferir a licença antes de incluir.
-fonts/
+# Fontes: a pasta tem 42 arquivos (83 MB), mas o css/fonts.css usa 14.
+# Só os 14 entram, porque o GitHub Pages precisa deles para a página
+# sair com a tipografia da marca. Os outros 28 são peso morto.
+fonts/**
+!fonts/*/
+!fonts/highhope/Highhope-ExtraLight-BF6a83c2888b490.otf
+!fonts/highhope/Highhope-Regular-BF6a83c28864950.ttf
+!fonts/highhope/Highhope-Medium-BF6a83c2886fa8d.otf
+!fonts/highhope/Highhope-SemiBold-BF6a83c2885cbfc.ttf
+!fonts/highhope/Highhope-Bold-BF6a83c2889e7ca.otf
+!fonts/highhope/Highhope-ExtraLightItalic-BF6a83c288d9cc2.ttf
+!fonts/highhope/Highhope-Italic-BF6a83c288c5fb1.ttf
+!fonts/highhope/Highhope-MediumItalic-BF6a83c288b0e88.ttf
+!fonts/highhope/Highhope-SemiBoldItalic-BF6a83c2872f8e4.ttf
+!fonts/highhope/Highhope-BoldItalic-BF6a83c288dd661.ttf
+!fonts/karasuma-gothic/karasumagothic-light.otf
+!fonts/karasuma-gothic/karasumagothic-regular.otf
+!fonts/karasuma-gothic/karasumagothic-medium.otf
+!fonts/karasuma-gothic/karasumagothic-bold.otf
 
 # Vídeos originais, sem compressão. A página usa os da raiz.
 originais/

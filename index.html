@@ -1,0 +1,562 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VERTI — Construção, reforma e reparos sem complicação</title>
+<meta name="description" content="Da contratação de profissionais à execução de projetos completos, a VERTI facilita cada etapa para você tirar seus planos do papel. 12 anos de experiência e mais de 10.000 m² construídos.">
+<meta property="og:title" content="VERTI — Gestão de Obras">
+<meta property="og:description" content="Construção, reforma e reparos sem complicação. Solicite seu orçamento e receba retorno em até 24 horas.">
+<meta property="og:image" content="materiais/obras/plateau-fachada.jpg">
+<meta property="og:type" content="website">
+<link rel="icon" href="materiais/logo-marca.png">
+<link rel="stylesheet" href="css/fonts.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<main>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="topo">
+  <div class="shell">
+    <div class="hero-stage">
+      <!-- o JS escolhe a versão conforme a tela: 16:9 no desktop,
+           9:16 no celular. Só a escolhida é baixada -->
+      <video class="hero-img" id="hero-video"
+             autoplay muted loop playsinline
+             preload="metadata"
+             poster="materiais/hero-poster.jpg"
+             data-src="HERO-web.mp4"
+             data-src-mobile="HERO-mobile.mp4"
+             data-poster-mobile="materiais/hero-poster-mobile.jpg"
+             aria-label="Obras executadas pela VERTI"></video>
+      <div class="hero-veil"></div>
+
+      <header class="site-header">
+        <div class="header-inner">
+          <a href="#topo" class="brand" aria-label="VERTI — página inicial">
+            <img src="materiais/logo-marca.png" alt="" class="brand-mark">
+            <img src="materiais/logo-nome.png" alt="VERTI" class="brand-name">
+          </a>
+
+          <nav class="nav" id="nav">
+            <a href="#servicos">Serviços</a>
+            <a href="#obras">Obras</a>
+            <a href="#processo">Como funciona</a>
+            <a href="#sobre">Sobre</a>
+          </nav>
+
+          <div class="header-actions">
+            <a href="#orcamento" class="btn btn-primary btn-sm">Solicitar orçamento <span class="arrow">&rarr;</span></a>
+            <button class="burger" id="burger" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav">
+              <span></span><span></span><span></span>
+            </button>
+          </div>
+        </div>
+      </header>
+
+      <div class="hero-inner">
+        <div class="hero-row">
+          <div class="hero-content">
+            <p class="hero-kicker"><span class="dot"></span> Gestão de obras · 12 anos de experiência</p>
+            <h1>
+              Construção, reforma e reparos<br>
+              <em>sem <span id="typewriter"></span>.</em>
+            </h1>
+            <p class="hero-sub">
+              Da contratação de profissionais à execução de projetos completos, a VERTI
+              facilita cada etapa para você tirar seus planos do papel.
+            </p>
+            <div class="hero-cta">
+              <a href="#orcamento" class="btn btn-reveal">
+                <span class="btn-label">Solicitar orçamento</span>
+                <span class="btn-badge">
+                  <span class="badge-content">→</span>
+                </span>
+              </a>
+              <a href="#parceiro" class="btn btn-ghost">Seja um parceiro</a>
+            </div>
+          </div>
+
+          <div class="hero-badge">
+            <strong>+10.000 m²</strong>
+            <span>projetados e construídos</span>
+          </div>
+        </div>
+
+        <form class="quickbar" id="quickbar">
+          <div class="quick-field">
+            <span class="quick-label">O que você precisa</span>
+            <select id="quick-servico" aria-label="Serviço desejado">
+              <option>Alvenaria</option>
+              <option>Pintura</option>
+              <option>Elétrica</option>
+              <option>Hidráulica</option>
+              <option>Gesso e drywall</option>
+              <option selected>Reformas e construções</option>
+            </select>
+          </div>
+          <div class="quick-field">
+            <span class="quick-label">Tipo de imóvel</span>
+            <select id="quick-tipo" aria-label="Tipo de imóvel">
+              <option>Residencial</option>
+              <option>Comercial</option>
+              <option>Predial</option>
+            </select>
+          </div>
+          <div class="quick-field">
+            <span class="quick-label">Prazo desejado</span>
+            <select id="quick-prazo" aria-label="Prazo desejado">
+              <option>O quanto antes</option>
+              <option>Nas próximas semanas</option>
+              <option>Ainda estou planejando</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-primary quick-submit">Começar <span class="arrow">&rarr;</span></button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FORNECEDORES ============ -->
+<section class="suppliers">
+  <div class="shell">
+    <p class="suppliers-title">Marcas presentes nas nossas obras</p>
+    <div class="marquee">
+      <img class="suppliers-logos" src="materiais/fornecedores.svg" alt="Votorantim, Gerdau, Ciplan, Tigre, Suvinil, Portinari, Roca, Legrand, Blindex e Deca">
+    </div>
+  </div>
+</section>
+
+<!-- ============ SERVIÇOS ============ -->
+<section class="section" id="servicos">
+  <div class="shell">
+    <div class="section-head reveal">
+      <p class="eyebrow"><span class="eyebrow-mark"></span> Serviços</p>
+      <h2>Tudo o que sua obra precisa,<br><em>em um só lugar.</em></h2>
+      <p class="section-lede">
+        De pequenos reparos a grandes projetos, conte com a praticidade da VERTI
+        para encontrar soluções para cada etapa da sua obra.
+      </p>
+    </div>
+
+    <div class="svc-grid">
+      <article class="svc-card tem-foto reveal">
+        <img class="svc-img" src="funcoes/pedreiro.jpg" alt="Alvenaria">
+        <div class="svc-body">
+          <h3>Alvenaria</h3>
+          <p>Serviços de construção, reformas e reparos em geral.</p>
+        </div>
+      </article>
+
+      <article class="svc-card tem-foto reveal">
+        <img class="svc-img" src="funcoes/pintor.jpg" alt="Pintura">
+        <div class="svc-body">
+          <h3>Pintura</h3>
+          <p>Pintura residencial e comercial, acabamento e renovação de ambientes.</p>
+        </div>
+      </article>
+
+      <article class="svc-card tem-foto reveal">
+        <img class="svc-img" src="funcoes/eletricista.jpg" alt="Elétrica">
+        <div class="svc-body">
+          <h3>Elétrica</h3>
+          <p>Instalações, manutenções e adequações elétricas.</p>
+        </div>
+      </article>
+
+      <article class="svc-card tem-foto reveal">
+        <img class="svc-img" src="funcoes/hidraulica.jpg" alt="Hidráulica">
+        <div class="svc-body">
+          <h3>Hidráulica</h3>
+          <p>Instalações, reparos e soluções hidráulicas.</p>
+        </div>
+      </article>
+
+      <article class="svc-card tem-foto reveal">
+        <img class="svc-img" src="funcoes/gesseiro.jpg" alt="Gesso e drywall">
+        <div class="svc-body">
+          <h3>Gesso e drywall</h3>
+          <p>Forros, divisórias, sancas e acabamentos.</p>
+        </div>
+      </article>
+
+      <article class="svc-card tem-foto reveal">
+        <img class="svc-img" src="funcoes/Costrução-reforma.jpg" alt="Reformas e construções">
+        <div class="svc-body">
+          <h3>Reformas e construções</h3>
+          <p>Soluções para projetos completos, do planejamento à execução.</p>
+        </div>
+      </article>
+    </div>
+
+    <div class="svc-foot reveal">
+      <a href="#orcamento" class="btn btn-primary">Solicitar orçamento <span class="arrow">&rarr;</span></a>
+      <p>Não encontrou o que procura? Conte o que precisa — a VERTI encontra o profissional certo para a sua obra.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ OBRAS ============ -->
+<section class="section section-obras" id="obras">
+  <div class="shell">
+    <div class="section-head section-head-row reveal">
+      <div>
+        <p class="eyebrow"><span class="eyebrow-mark"></span> Obras</p>
+        <h2>Projetos que saíram do papel<br><em>e viraram entrega.</em></h2>
+      </div>
+      <div class="carousel-nav">
+        <button class="cnav" id="obras-prev" aria-label="Obra anterior">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+        </button>
+        <button class="cnav" id="obras-next" aria-label="Próxima obra">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="obras-rail" id="obras-rail">
+    <article class="obra obra-photo">
+      <img src="materiais/obras/plateau-fachada.jpg" alt="Fachada do empreendimento Plateau d'Or" loading="lazy">
+      <div class="obra-info">
+        <span class="obra-area">Predial</span>
+        <h3>Plateau d'Or</h3>
+        <p>Execução de fachada, estrutura e escadaria.</p>
+      </div>
+    </article>
+
+    <article class="obra obra-photo">
+      <img src="materiais/obras/jacaranda-piscina.jpg" alt="Área de piscina do Portal do Sol Mendanha" loading="lazy">
+      <div class="obra-info">
+        <span class="obra-area">Residencial</span>
+        <h3>Portal do Sol Mendanha</h3>
+        <p>Área de lazer, varanda e escada em projeto residencial.</p>
+      </div>
+    </article>
+
+    <article class="obra obra-photo">
+      <img src="materiais/obras/plastica-recepcao.jpg" alt="Recepção da Acasa da Plástica" loading="lazy">
+      <div class="obra-info">
+        <span class="obra-area">Comercial</span>
+        <h3>Acasa da Plástica</h3>
+        <p>Recepção, lounge e fachada entregues com acabamento fino.</p>
+      </div>
+    </article>
+
+    <article class="obra obra-photo">
+      <img src="materiais/obras/plateau-estrutura.jpg" alt="Estrutura em execução no Plateau d'Or" loading="lazy">
+      <div class="obra-info">
+        <span class="obra-area">Predial</span>
+        <h3>Plateau d'Or · estrutura</h3>
+        <p>Acompanhamento de obra do contrapiso ao acabamento.</p>
+      </div>
+    </article>
+
+    <article class="obra obra-photo">
+      <img src="materiais/obras/jacaranda-varanda.jpg" alt="Varanda do Portal do Sol Mendanha" loading="lazy">
+      <div class="obra-info">
+        <span class="obra-area">Residencial</span>
+        <h3>Portal do Sol Mendanha · varanda</h3>
+        <p>Marcenaria, iluminação e revestimentos integrados.</p>
+      </div>
+    </article>
+
+    <article class="obra obra-card">
+      <span class="obra-area">Próxima obra</span>
+      <h3>A sua pode ser a próxima.</h3>
+      <p>Conte o que você precisa e receba nosso retorno em até 24 horas.</p>
+      <span class="obra-tag">Solicitar orçamento</span>
+    </article>
+  </div>
+
+  <!-- Esteira de nomes. Cada trilho traz o mesmo conjunto QUATRO vezes e
+       anda -25%: a volta cai exatamente sobre a cópia seguinte e as três
+       cópias restantes cobrem a tela inteira, sem vão na emenda. Mudar o
+       número de cópias obriga a mudar a porcentagem do keyframe junto.
+       As fotos entram por background-image no CSS (são decorativas). -->
+  <div class="nomes" aria-hidden="true">
+    <div class="nomes-row">
+      <div class="nomes-track nomes-track--esq">
+        <span class="nomes-chip n-plateau-1">Plateau d'Or</span>
+        <span class="nomes-chip n-jacaranda-1">Portal do Sol Mendanha</span>
+        <span class="nomes-chip n-clinica-1">Acasa da Plástica</span>
+        <span class="nomes-chip n-plateau-2">Plateau d'Or</span>
+        <span class="nomes-chip n-jacaranda-2">Portal do Sol Mendanha</span>
+        <span class="nomes-chip n-plateau-1">Plateau d'Or</span>
+        <span class="nomes-chip n-jacaranda-1">Portal do Sol Mendanha</span>
+        <span class="nomes-chip n-clinica-1">Acasa da Plástica</span>
+        <span class="nomes-chip n-plateau-2">Plateau d'Or</span>
+        <span class="nomes-chip n-jacaranda-2">Portal do Sol Mendanha</span>
+        <span class="nomes-chip n-plateau-1">Plateau d'Or</span>
+        <span class="nomes-chip n-jacaranda-1">Portal do Sol Mendanha</span>
+        <span class="nomes-chip n-clinica-1">Acasa da Plástica</span>
+        <span class="nomes-chip n-plateau-2">Plateau d'Or</span>
+        <span class="nomes-chip n-jacaranda-2">Portal do Sol Mendanha</span>
+        <span class="nomes-chip n-plateau-1">Plateau d'Or</span>
+        <span class="nomes-chip n-jacaranda-1">Portal do Sol Mendanha</span>
+        <span class="nomes-chip n-clinica-1">Acasa da Plástica</span>
+        <span class="nomes-chip n-plateau-2">Plateau d'Or</span>
+        <span class="nomes-chip n-jacaranda-2">Portal do Sol Mendanha</span>
+      </div>
+    </div>
+
+    <div class="nomes-row">
+      <div class="nomes-track nomes-track--dir">
+        <span class="nomes-chip n-clinica-2">Acasa da Plástica</span>
+        <span class="nomes-chip n-plateau-3">Plateau d'Or</span>
+        <span class="nomes-chip n-jacaranda-3">Portal do Sol Mendanha</span>
+        <span class="nomes-chip n-clinica-3">Acasa da Plástica</span>
+        <span class="nomes-chip n-plateau-1">Plateau d'Or</span>
+        <span class="nomes-chip n-clinica-2">Acasa da Plástica</span>
+        <span class="nomes-chip n-plateau-3">Plateau d'Or</span>
+        <span class="nomes-chip n-jacaranda-3">Portal do Sol Mendanha</span>
+        <span class="nomes-chip n-clinica-3">Acasa da Plástica</span>
+        <span class="nomes-chip n-plateau-1">Plateau d'Or</span>
+        <span class="nomes-chip n-clinica-2">Acasa da Plástica</span>
+        <span class="nomes-chip n-plateau-3">Plateau d'Or</span>
+        <span class="nomes-chip n-jacaranda-3">Portal do Sol Mendanha</span>
+        <span class="nomes-chip n-clinica-3">Acasa da Plástica</span>
+        <span class="nomes-chip n-plateau-1">Plateau d'Or</span>
+        <span class="nomes-chip n-clinica-2">Acasa da Plástica</span>
+        <span class="nomes-chip n-plateau-3">Plateau d'Or</span>
+        <span class="nomes-chip n-jacaranda-3">Portal do Sol Mendanha</span>
+        <span class="nomes-chip n-clinica-3">Acasa da Plástica</span>
+        <span class="nomes-chip n-plateau-1">Plateau d'Or</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ COMO FUNCIONA ============ -->
+<section class="section" id="processo">
+  <div class="shell">
+    <div class="section-head reveal">
+      <p class="eyebrow"><span class="eyebrow-mark"></span> Como funciona</p>
+      <h2>Você explica o que precisa.<br><em>A VERTI facilita o caminho.</em></h2>
+      <p class="section-lede">Solicitar um serviço é simples:</p>
+    </div>
+
+    <div class="process">
+      <figure class="process-media reveal">
+        <img src="materiais/obras/plateau-escada.jpg" alt="Equipe da VERTI em obra" loading="lazy">
+        <figcaption>
+          <strong>Acompanhamento em cada etapa</strong>
+          Da primeira conversa à entrega, você sabe em que pé está a sua obra.
+        </figcaption>
+      </figure>
+
+      <ol class="steps reveal">
+        <li>
+          <span class="step-num">01</span>
+          <h3>Conte o que precisa</h3>
+          <p>Informe qual serviço deseja realizar e compartilhe os detalhes do seu projeto.</p>
+        </li>
+        <li>
+          <span class="step-num">02</span>
+          <h3>Envie as informações</h3>
+          <p>Adicione fotos ou vídeos para ajudar nossa equipe a entender melhor sua necessidade.</p>
+        </li>
+        <li>
+          <span class="step-num">03</span>
+          <h3>Receba nosso retorno</h3>
+          <p>Nossa equipe entrará em contato em até 24 horas para dar continuidade à sua solicitação.</p>
+        </li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SOBRE ============ -->
+<section class="section section-sobre" id="sobre">
+  <div class="shell">
+    <div class="sobre-grid">
+      <div class="sobre-text reveal">
+        <p class="eyebrow"><span class="eyebrow-mark"></span> Sobre a VERTI</p>
+        <h2>Experiência que<br><em>constrói confiança.</em></h2>
+        <p>
+          São 12 anos de atuação empresarial e mais de 10.000 m² construídos. Uma trajetória
+          que reúne conhecimento, experiência e compromisso com cada projeto.
+        </p>
+        <p class="sobre-note">Boas pessoas fazendo boas obras.</p>
+        <ul class="sobre-list">
+          <li>Profissionais verificados</li>
+          <li>Obras residenciais, comerciais e prediais</li>
+          <li>Retorno em até 24 horas</li>
+          <li>Acompanhamento do início à entrega</li>
+        </ul>
+      </div>
+
+      <div class="sobre-gallery reveal">
+        <img class="g1" src="materiais/obras/plateau-fachada.jpg" alt="Fachada entregue pela VERTI" loading="lazy">
+        <img class="g2" src="materiais/obras/jacaranda-piscina.jpg" alt="Área de lazer entregue pela VERTI" loading="lazy">
+        <img class="g3" src="materiais/obras/jacaranda-varanda.jpg" alt="Residência entregue pela VERTI" loading="lazy">
+        <img class="g4" src="materiais/obras/plastica-lounge.jpg" alt="Lounge entregue pela VERTI" loading="lazy">
+      </div>
+    </div>
+
+    <div class="stats reveal">
+      <div class="stat">
+        <strong>12</strong>
+        <span>Anos de experiência empresarial.</span>
+      </div>
+      <div class="stat">
+        <strong>10.000<i>m²</i></strong>
+        <span>Construídos ao longo da nossa trajetória.</span>
+      </div>
+      <div class="stat">
+        <strong>6</strong>
+        <span>Especialidades, da alvenaria às reformas completas.</span>
+      </div>
+      <div class="stat">
+        <strong>24<i>h</i></strong>
+        <span>Prazo de retorno para cada solicitação.</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ORÇAMENTO ============ -->
+<section class="section" id="orcamento">
+  <div class="shell">
+    <div class="form-grid">
+      <div class="form-side reveal">
+        <p class="eyebrow"><span class="eyebrow-mark"></span> Solicite seu orçamento</p>
+        <h2>Seu projeto começa com <em>uma solicitação.</em></h2>
+        <p class="form-lede">
+          Conte o que você precisa, compartilhe os detalhes e, se possível, envie fotos
+          ou vídeos. Nossa equipe entrará em contato em até 24 horas.
+        </p>
+
+        <form id="form-orcamento" novalidate>
+          <div class="field">
+            <label for="nome">Nome completo</label>
+            <input type="text" id="nome" name="nome" placeholder="Como podemos te chamar?" autocomplete="name">
+          </div>
+
+          <div class="field-row">
+            <div class="field">
+              <label for="whatsapp">WhatsApp</label>
+              <input type="tel" id="whatsapp" name="whatsapp" placeholder="(00) 00000-0000" inputmode="numeric" autocomplete="tel">
+            </div>
+            <div class="field">
+              <label for="email">E-mail <span style="color:var(--muted)">(opcional)</span></label>
+              <input type="email" id="email" name="email" placeholder="voce@email.com" autocomplete="email">
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="servico">Serviço desejado</label>
+            <select id="servico" name="servico">
+              <option value="">Selecione um serviço</option>
+              <option>Alvenaria</option>
+              <option>Pintura</option>
+              <option>Elétrica</option>
+              <option>Hidráulica</option>
+              <option>Gesso e drywall</option>
+              <option>Reformas e construções</option>
+              <option>Quero ser parceiro da VERTI</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="descricao">Descrição do projeto</label>
+            <textarea id="descricao" name="descricao" rows="5" placeholder="Conte o que você precisa, o tamanho do espaço e o prazo que tem em mente."></textarea>
+          </div>
+
+          <p class="field-hint">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/></svg>
+            Tem fotos ou vídeos do espaço? Pode enviar direto na conversa do WhatsApp,
+            logo depois de mandar esta solicitação.
+          </p>
+
+          <button type="submit" class="btn btn-primary btn-block">Solicitar orçamento <span class="arrow">&rarr;</span></button>
+          <p class="form-feedback" id="form-feedback" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+
+      <aside class="contact-card reveal" id="parceiro">
+        <img class="contact-logo" src="materiais/logo-nome.png" alt="VERTI">
+        <p class="contact-tagline">Boas pessoas <em>fazendo boas obras.</em></p>
+
+        <ul class="contact-list">
+          <li>
+            <span class="ci" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.4 8.4 0 0 1-12.3 7.4L3 20.5l1.7-5.5A8.4 8.4 0 1 1 21 11.5z"/></svg>
+            </span>
+            <div>
+              <strong>WhatsApp</strong>
+              <span>Retorno em até 24 horas</span>
+            </div>
+          </li>
+          <li>
+            <span class="ci" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3.5 7 8.5 6 8.5-6"/></svg>
+            </span>
+            <div>
+              <strong>suporte@verti.com.br</strong>
+              <span>Para propostas e parcerias</span>
+            </div>
+          </li>
+        </ul>
+
+        <div class="partner-box">
+          <h3>Seja um parceiro</h3>
+          <p>É profissional da construção? Entre para a rede de parceiros da VERTI e receba solicitações de obra.</p>
+          <button type="button" class="btn btn-light" id="btn-parceiro">Quero ser parceiro <span class="arrow">&rarr;</span></button>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ RODAPÉ ============ -->
+<footer class="site-footer">
+  <div class="shell">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <h3 class="footer-logo">VERTI</h3>
+        <p>Soluções para construir, reformar <em>e transformar.</em></p>
+      </div>
+
+      <nav class="footer-nav">
+        <div>
+          <h4>Navegue</h4>
+          <a href="#topo">Início</a>
+          <a href="#servicos">Serviços</a>
+          <a href="#processo">Como funciona</a>
+        </div>
+        <div>
+          <h4>A VERTI</h4>
+          <a href="#sobre">Sobre a VERTI</a>
+          <a href="#obras">Obras</a>
+          <a href="#parceiro">Seja um parceiro</a>
+        </div>
+        <div>
+          <h4>Fale com a gente</h4>
+          <a href="#orcamento">Solicitar orçamento</a>
+          <a href="mailto:suporte@verti.com.br">suporte@verti.com.br</a>
+        </div>
+      </nav>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; <span id="ano"></span> VERTI. Todos os direitos reservados.</p>
+      <p>Goiás · Brasil</p>
+    </div>
+  </div>
+</footer>
+
+<a href="#orcamento" class="float-cta" aria-label="Solicitar orçamento">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.4 8.4 0 0 1-12.3 7.4L3 20.5l1.7-5.5A8.4 8.4 0 1 1 21 11.5z"/></svg>
+  <span>Solicitar orçamento</span>
+</a>
+
+<script src="js/select.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

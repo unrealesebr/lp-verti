@@ -1,0 +1,19 @@
+# Fontes licenciadas (Karasuma Gothic e Highhope), 83 MB.
+# Fora do repositório porque ele é público: hospedar a fonte no próprio
+# site costuma estar na licença, publicar os arquivos para qualquer um
+# baixar não. Conferir a licença antes de incluir.
+fonts/
+
+# Vídeos originais, sem compressão. A página usa os da raiz.
+originais/
+
+# Material do cliente. O notas.txt proíbe retirar fotos daqui.
+Portfólio.pdf
+
+# Sobra da recuperação do index em 11/11/2026.
+index-recuperado-05h33.html
+
+# Sistema
+Thumbs.db
+desktop.ini
+.DS_Store

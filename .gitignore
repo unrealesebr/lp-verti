@@ -1,22 +1,24 @@
-# Fontes: a pasta tem 42 arquivos (83 MB), mas o css/fonts.css usa 14.
-# Só os 14 entram, porque o GitHub Pages precisa deles para a página
-# sair com a tipografia da marca. Os outros 28 são peso morto.
+# Fontes. Os .otf/.ttf originais (83 MB) ficam só na máquina: a Karasuma
+# Gothic é japonesa e cada peso traz milhares de ideogramas que a página
+# nunca usa. O que vai para o site são os .woff2 recortados para o
+# alfabeto latino, ~20 KB cada. Regerar com o subset do scratchpad se
+# algum peso novo entrar no css/fonts.css.
 fonts/**
 !fonts/*/
-!fonts/highhope/Highhope-ExtraLight-BF6a83c2888b490.otf
-!fonts/highhope/Highhope-Regular-BF6a83c28864950.ttf
-!fonts/highhope/Highhope-Medium-BF6a83c2886fa8d.otf
-!fonts/highhope/Highhope-SemiBold-BF6a83c2885cbfc.ttf
-!fonts/highhope/Highhope-Bold-BF6a83c2889e7ca.otf
-!fonts/highhope/Highhope-ExtraLightItalic-BF6a83c288d9cc2.ttf
-!fonts/highhope/Highhope-Italic-BF6a83c288c5fb1.ttf
-!fonts/highhope/Highhope-MediumItalic-BF6a83c288b0e88.ttf
-!fonts/highhope/Highhope-SemiBoldItalic-BF6a83c2872f8e4.ttf
-!fonts/highhope/Highhope-BoldItalic-BF6a83c288dd661.ttf
-!fonts/karasuma-gothic/karasumagothic-light.otf
-!fonts/karasuma-gothic/karasumagothic-regular.otf
-!fonts/karasuma-gothic/karasumagothic-medium.otf
-!fonts/karasuma-gothic/karasumagothic-bold.otf
+!fonts/highhope/Highhope-ExtraLight-BF6a83c2888b490.woff2
+!fonts/highhope/Highhope-Regular-BF6a83c28864950.woff2
+!fonts/highhope/Highhope-Medium-BF6a83c2886fa8d.woff2
+!fonts/highhope/Highhope-SemiBold-BF6a83c2885cbfc.woff2
+!fonts/highhope/Highhope-Bold-BF6a83c2889e7ca.woff2
+!fonts/highhope/Highhope-ExtraLightItalic-BF6a83c288d9cc2.woff2
+!fonts/highhope/Highhope-Italic-BF6a83c288c5fb1.woff2
+!fonts/highhope/Highhope-MediumItalic-BF6a83c288b0e88.woff2
+!fonts/highhope/Highhope-SemiBoldItalic-BF6a83c2872f8e4.woff2
+!fonts/highhope/Highhope-BoldItalic-BF6a83c288dd661.woff2
+!fonts/karasuma-gothic/karasumagothic-light.woff2
+!fonts/karasuma-gothic/karasumagothic-regular.woff2
+!fonts/karasuma-gothic/karasumagothic-medium.woff2
+!fonts/karasuma-gothic/karasumagothic-bold.woff2
 
 # Vídeos originais, sem compressão. A página usa os da raiz.
 originais/

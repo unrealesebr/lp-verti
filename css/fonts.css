@@ -3,7 +3,7 @@
 
 @font-face {
   font-family: 'HighHope';
-  src: url('../fonts/highhope/Highhope-ExtraLight-BF6a83c2888b490.otf') format('opentype');
+  src: url('../fonts/highhope/Highhope-ExtraLight-BF6a83c2888b490.woff2') format('woff2');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -11,7 +11,7 @@
 
 @font-face {
   font-family: 'HighHope';
-  src: url('../fonts/highhope/Highhope-Regular-BF6a83c28864950.ttf') format('truetype');
+  src: url('../fonts/highhope/Highhope-Regular-BF6a83c28864950.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -19,7 +19,7 @@
 
 @font-face {
   font-family: 'HighHope';
-  src: url('../fonts/highhope/Highhope-Medium-BF6a83c2886fa8d.otf') format('opentype');
+  src: url('../fonts/highhope/Highhope-Medium-BF6a83c2886fa8d.woff2') format('woff2');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -27,7 +27,7 @@
 
 @font-face {
   font-family: 'HighHope';
-  src: url('../fonts/highhope/Highhope-SemiBold-BF6a83c2885cbfc.ttf') format('truetype');
+  src: url('../fonts/highhope/Highhope-SemiBold-BF6a83c2885cbfc.woff2') format('woff2');
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -35,7 +35,7 @@
 
 @font-face {
   font-family: 'HighHope';
-  src: url('../fonts/highhope/Highhope-Bold-BF6a83c2889e7ca.otf') format('opentype');
+  src: url('../fonts/highhope/Highhope-Bold-BF6a83c2889e7ca.woff2') format('woff2');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -44,7 +44,7 @@
 /* ========== HIGHHOPE ITALIC ========== */
 @font-face {
   font-family: 'HighHope';
-  src: url('../fonts/highhope/Highhope-ExtraLightItalic-BF6a83c288d9cc2.ttf') format('truetype');
+  src: url('../fonts/highhope/Highhope-ExtraLightItalic-BF6a83c288d9cc2.woff2') format('woff2');
   font-weight: 300;
   font-style: italic;
   font-display: swap;
@@ -52,7 +52,7 @@
 
 @font-face {
   font-family: 'HighHope';
-  src: url('../fonts/highhope/Highhope-Italic-BF6a83c288c5fb1.ttf') format('truetype');
+  src: url('../fonts/highhope/Highhope-Italic-BF6a83c288c5fb1.woff2') format('woff2');
   font-weight: 400;
   font-style: italic;
   font-display: swap;
@@ -60,7 +60,7 @@
 
 @font-face {
   font-family: 'HighHope';
-  src: url('../fonts/highhope/Highhope-MediumItalic-BF6a83c288b0e88.ttf') format('truetype');
+  src: url('../fonts/highhope/Highhope-MediumItalic-BF6a83c288b0e88.woff2') format('woff2');
   font-weight: 500;
   font-style: italic;
   font-display: swap;
@@ -68,7 +68,7 @@
 
 @font-face {
   font-family: 'HighHope';
-  src: url('../fonts/highhope/Highhope-SemiBoldItalic-BF6a83c2872f8e4.ttf') format('truetype');
+  src: url('../fonts/highhope/Highhope-SemiBoldItalic-BF6a83c2872f8e4.woff2') format('woff2');
   font-weight: 600;
   font-style: italic;
   font-display: swap;
@@ -76,7 +76,7 @@
 
 @font-face {
   font-family: 'HighHope';
-  src: url('../fonts/highhope/Highhope-BoldItalic-BF6a83c288dd661.ttf') format('truetype');
+  src: url('../fonts/highhope/Highhope-BoldItalic-BF6a83c288dd661.woff2') format('woff2');
   font-weight: 700;
   font-style: italic;
   font-display: swap;
@@ -87,7 +87,7 @@
 
 @font-face {
   font-family: 'Karasuma Gothic';
-  src: url('../fonts/karasuma-gothic/karasumagothic-light.otf') format('opentype');
+  src: url('../fonts/karasuma-gothic/karasumagothic-light.woff2') format('woff2');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -95,7 +95,7 @@
 
 @font-face {
   font-family: 'Karasuma Gothic';
-  src: url('../fonts/karasuma-gothic/karasumagothic-regular.otf') format('opentype');
+  src: url('../fonts/karasuma-gothic/karasumagothic-regular.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -103,7 +103,7 @@
 
 @font-face {
   font-family: 'Karasuma Gothic';
-  src: url('../fonts/karasuma-gothic/karasumagothic-medium.otf') format('opentype');
+  src: url('../fonts/karasuma-gothic/karasumagothic-medium.woff2') format('woff2');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -111,7 +111,7 @@
 
 @font-face {
   font-family: 'Karasuma Gothic';
-  src: url('../fonts/karasuma-gothic/karasumagothic-bold.otf') format('opentype');
+  src: url('../fonts/karasuma-gothic/karasumagothic-bold.woff2') format('woff2');
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -119,7 +119,7 @@
 
 @font-face {
   font-family: 'Karasuma Gothic';
-  src: url('../fonts/karasuma-gothic/karasumagothic-bold.otf') format('opentype');
+  src: url('../fonts/karasuma-gothic/karasumagothic-bold.woff2') format('woff2');
   font-weight: 700;
   font-style: normal;
   font-display: swap;

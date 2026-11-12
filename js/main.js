@@ -219,9 +219,12 @@ document.getElementById('ano').textContent = new Date().getFullYear();
 const typewriterEl = document.getElementById('typewriter');
 if (typewriterEl) {
   const words = ['complicação', 'preocupação', 'improviso'];
+  /* o HTML ja nasce com a primeira palavra escrita, senao a manchete
+     aparece como "sem ." no carregamento, ate o efeito comecar. O ciclo
+     parte dai, apagando. */
   let wordIndex = 0;
-  let charIndex = 0;
-  let isDeleting = false;
+  let charIndex = words[0].length;
+  let isDeleting = true;
 
   const typeSpeed = 80;
   const deleteSpeed = 50;
@@ -252,6 +255,6 @@ if (typewriterEl) {
     }
   }
 
-  type();
+  setTimeout(type, pauseTime);
 }
 

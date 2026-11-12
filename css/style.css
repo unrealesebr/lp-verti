@@ -1281,7 +1281,19 @@ h1 em, h2 em, p em, .contact-tagline em, .footer-brand em{
      passava de 400px de altura e engolia a secao */
   .sobre-gallery{ grid-template-rows:repeat(3, 116px); }
   .footer-nav{ grid-template-columns:1fr 1fr; }
-  .float-cta{ display:flex; padding:16px; }
+  /* Ele e fixo no canto inferior direito, entao enquanto o hero esta na
+     tela ele cai em cima do botao "Comecar" da barra de orcamento. So
+     entra depois que o hero sai de vista, quando passa a ser util. */
+  .float-cta{
+    display:flex; padding:16px;
+    opacity:0; visibility:hidden; pointer-events:none;
+    transform:translateY(10px) scale(.92);
+    transition:opacity .25s var(--ease), transform .25s var(--ease), visibility .25s;
+  }
+  .float-cta.aparece{
+    opacity:1; visibility:visible; pointer-events:auto;
+    transform:none;
+  }
   .float-cta span{ display:none; }
   /* espaço para o botão flutuante não cobrir o rodapé */
   .footer-bottom{ padding-bottom:92px; }

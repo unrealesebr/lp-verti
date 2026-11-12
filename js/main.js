@@ -212,6 +212,20 @@ document.addEventListener('click', (e) => {
   }
 });
 
+/* ---------- botão flutuante só depois do hero ---------- */
+/* fixo no canto, ele cobria o "Começar" da barra enquanto o hero
+   estava na tela; agora entra quando o hero sai de vista */
+const flutuante = document.querySelector('.float-cta');
+const heroAlvo = document.getElementById('topo') || document.querySelector('.hero');
+if (flutuante && heroAlvo) {
+  const ajustaFlutuante = () => {
+    flutuante.classList.toggle('aparece', window.scrollY > heroAlvo.offsetHeight - 120);
+  };
+  addEventListener('scroll', ajustaFlutuante, { passive: true });
+  addEventListener('resize', ajustaFlutuante);
+  ajustaFlutuante();
+}
+
 /* ---------- ano do rodapé ---------- */
 document.getElementById('ano').textContent = new Date().getFullYear();
 

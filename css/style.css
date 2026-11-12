@@ -366,6 +366,9 @@ h1 em, h2 em, p em, .contact-tagline em, .footer-brand em{
   box-shadow:0 0 0 4px rgba(27,169,76,.28);
 }
 
+/* o <br class="quebra-cel"> do titulo so vale no celular */
+.quebra-cel{ display:none; }
+
 .hero h1{
   font-size:clamp(2.4rem, 5.4vw, 4.35rem);
   font-weight:500;
@@ -1320,6 +1323,10 @@ h1 em, h2 em, p em, .contact-tagline em, .footer-brand em{
   .site-header{ padding-inline:16px; }
   .nav{ left:16px; right:16px; }
   .hero h1{ font-size:1.95rem; margin-bottom:14px; }
+  /* no celular o balance quebrava em "Construcao, reforma e" / "reparos",
+     deixando uma palavra sozinha. A quebra abaixo e a do desenho. */
+  .hero h1{ text-wrap:normal; }
+  .quebra-cel{ display:inline; }
   /* em 13px a tarja quebrava em duas linhas e custava 76px de altura */
   .hero-kicker{ font-size:11.5px; gap:7px; padding:6px 12px 6px 10px; margin-bottom:12px; }
   .hero-sub{ font-size:14.5px; line-height:1.48; margin-bottom:12px; }
